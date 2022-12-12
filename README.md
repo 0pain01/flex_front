@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# This the frontend which is connected to the backend 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is created using React
 
-## Available Scripts
+## Hosted link
+https://curious-praline-89082e.netlify.app/
 
-In the project directory, you can run:
+Click on it check the web-app
 
-### `npm start`
+### web app 
+#FRONTEND :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Web app is created using Register.js file which is in the src section.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Used bootstrap to create the form and taking the user input from it.
+Used MongoDB as backend framework, to store the values in json format.
+Created 4 input fields :
+## Name :
+To take input name of the user that will enroll int class
+## Date of Joining :
+To take the input of the Date on which the user registered or paid for the class
+## Age :
+To take the age of the user to verify the age criteria is fulfilled 
+## Batch :
+Created a dropdown list of 4 batches that are scheduled for the class
 
-### `npm test`
+2 Buttons are created :
+## Pay now :
+The Pay now button consist the CompletePayment() function that mocks the payment process and once clicked will act as payment is done
+And will show the desired output on the frontend.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Submit :
+To store the user input in the backend as desired.
 
-### `npm run build`
+#BACKEND:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##backend github link:
+https://github.com/0pain01/flex_back
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+created the backend using app.js in root folder , dbConnect.js and userModel.js in db folder.
+##  App.js
+This contains the mongoDB ,mongoose and express library to use the services.
+Was hosted on 3000 PORT number.
+Created a post method so that dat can be inserted using API and can be tested.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## dbConnect.js
+This contains the url of the mongoose database server which is created through my account and function to get connect to it.
 
-### `npm run eject`
+## userModel.js
+This contains the schema in which format the data will be stored in the Mongo Database:
+name (String) , Age (String), DOJ (String), batch (String)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The backend is hosted through Render and frontend is hosted on netlify and both are connected using github.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
