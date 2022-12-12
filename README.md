@@ -1,4 +1,4 @@
-# This the frontend which is connected to the backend 
+# FlexMoney Assingment: 
 
 This project is created using React
 
@@ -8,7 +8,7 @@ https://curious-praline-89082e.netlify.app/
 Click on it check the web-app
 
 ### web app 
-#FRONTEND :
+# FRONTEND :
 
 Web app is created using Register.js file which is in the src section.
 
@@ -32,7 +32,7 @@ And will show the desired output on the frontend.
 ## Submit :
 To store the user input in the backend as desired.
 
-#BACKEND:
+# BACKEND:
 
 ##backend github link:
 https://github.com/0pain01/flex_back
