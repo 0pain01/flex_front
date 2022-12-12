@@ -7,6 +7,10 @@ https://curious-praline-89082e.netlify.app/
 
 Click on it to check the web-app
 
+## Assumptions:
+1. That the paynow button is mock of payment process
+2. Pre assumed that the amount is not paid for the classes for the current month and is paid through this form (once paid the month is set to be paid for that user)
+
 # FRONTEND :
 
 Web app is created using Register.js file which is in the src section.
