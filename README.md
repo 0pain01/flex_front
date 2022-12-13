@@ -12,7 +12,7 @@ Click on it to check the web-app
 2. Pre assumed that the amount is not paid for the classes for the current month and is paid through this form (once paid the month is set to be paid for that user).
    Took a paid boolean variable that will be updated once pay now button is clicked.
    
-#ER DIAGRAM:
+# ER DIAGRAM:
 <p align="center">
   <img src="ER.jpg" alt="ER diagram" width="738">
 </p>
