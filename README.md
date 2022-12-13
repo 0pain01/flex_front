@@ -11,10 +11,19 @@ Click on it to check the web-app
 1. That the paynow button is mock of payment process
 2. Pre assumed that the amount is not paid for the classes for the current month and is paid through this form (once paid the month is set to be paid for that user).
    Took a paid boolean variable that will be updated once pay now button is clicked.
+   
+#ER DIAGRAM:
+<p align="center">
+  <img src="ER.jpg" alt="ER diagram" width="738">
+</p>
 
 # FRONTEND :
 
 Web app is created using Register.js file which is in the src section.
+### Frontend-view:
+<p align="center">
+  <img src="front.jpg" alt="front-end" width="738">
+</p>
 
 Used bootstrap to create the form and taking the user input from it.
 Used MongoDB as backend framework, to store the values in json format.
@@ -39,6 +48,11 @@ And will show the desired output on the frontend. And will update the paid varia
 To store the user input in the backend as desired.
 
 # BACKEND:
+### mongoDB view:
+<p align="center">
+  <img src="mongo.jpg" alt="mongo db" width="738">
+</p>
+
 
 ### backend github link:
 https://github.com/0pain01/flex_back
