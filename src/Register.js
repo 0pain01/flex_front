@@ -11,6 +11,7 @@ function Register(){
     const [DOJ,setDOJ] =useState('');
     const [batch,setBatch]=useState('');
     const [pay,setPay]=useState(true);
+    const [paid,setPaid]=useState(false);
 
     const handleChange = (e)=>{
         setBatch(e.target.value);
@@ -18,6 +19,7 @@ function Register(){
 
     const completePayment = (e)=>{
         e.preventDefault()
+        setPaid(true)
         setPay(e.target.value);
     }
 
@@ -31,7 +33,8 @@ function Register(){
                 name,
                 Age,
                 DOJ,
-                batch
+                batch,
+                paid
             }
         }
 
