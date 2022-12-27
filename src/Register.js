@@ -28,7 +28,7 @@ function Register(){
         e.preventDefault()
         const x = {
             method:"post",
-            url:"https://flex-web.onrender.com/register",
+            url:"https://flex-back-omega.vercel.app/register",
             data : {
                 name,
                 Age,
